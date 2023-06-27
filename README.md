@@ -1,4 +1,4 @@
-# secureawscli
+# secure-aws-cli
 
 This repository contains the code to build and run a secure, isolated environment for AWS CLI operations using Podman. The system securely manages environment variables using GPG password encryption for different AWS profiles.
 
