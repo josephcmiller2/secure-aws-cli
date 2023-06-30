@@ -29,7 +29,8 @@ RUN \
   ./aws/install
 
 RUN \
-  apt-get install -y mandoc gpg
+  apt-get update && \
+  apt-get install -y mandoc gpg less
 
 COPY files/startcontainer.sh /usr/bin/startcontainer.sh
 COPY files/subuid /etc/subuid
